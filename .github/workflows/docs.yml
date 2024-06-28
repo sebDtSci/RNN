@@ -32,7 +32,7 @@ jobs:
 
       # Generate the documentation
       - name: Build documentation
-        run: pdoc -o docs/
+        run: pdoc -o docs/ src/linearModel/Linear.py
 
       # Upload the generated documentation as an artifact
       - name: Upload artifact
