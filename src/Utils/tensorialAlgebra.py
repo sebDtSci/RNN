@@ -3,7 +3,7 @@
 # Copyright © 2024 Tadiello Stadiello.
 # All rights reserved.
 
-from src.Utils.probability import inverse_normal_cdf, normal_cdf, random_uniform, random_normal
+from Utils.probability import inverse_normal_cdf, normal_cdf, random_uniform, random_normal
 
 Matrix = list[list[float]]
 Tensor = list

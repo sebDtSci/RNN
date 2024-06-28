@@ -1,5 +1,5 @@
-from src.Utils.tensorialAlgebra import dot, random_tensor, Tensor
-from src.baseArchi.Layer import Layer
+from Utils.tensorialAlgebra import dot, random_tensor, Tensor
+from baseArchi.Layer import Layer
 
 class Linear(Layer):
     def _init_(self, input_dim:int, output_dim:int, init:str = 'Xavier')-> None:
