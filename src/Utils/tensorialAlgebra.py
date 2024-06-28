@@ -54,5 +54,5 @@ def random_tensor(*dims:int, init:str = 'normal') -> Tensor:
     else:
         raise ValueError('init must be normal, uniform or Xavier')
 
-def tensor_apply(f:callable[[float],[float]], tensor:Tensor) -> Tensor:
+# def tensor_apply(f:callable[[float],[float]], tensor:Tensor) -> Tensor:
     
