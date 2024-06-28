@@ -1,4 +1,4 @@
-from src.neural_network.activation import sigmoid
+from src.neural_network_utils.activation import sigmoid
 from src.baseArchi.Layer import Layer
 
 Tensor = list
